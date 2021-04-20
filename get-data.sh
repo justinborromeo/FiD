@@ -50,6 +50,6 @@ wget -c https://dl.fbaipublicfiles.com/FiD/data/tqa_passages.tar.gz -P "${DOWNLO
 tar xvzf "${DOWNLOAD}/tqa_passages.tar.gz" -C "${DOWNLOAD}"
 tar xvzf "${DOWNLOAD}/nq_passages.tar.gz" -C "${DOWNLOAD}"
 
-echo "Processing "$ROOT""
-python src/preprocess.py $DOWNLOAD $ROOT
-rm -r "${DOWNLOAD}"
+# echo "Processing "$ROOT""
+# python src/preprocess.py $DOWNLOAD $ROOT
+# rm -r "${DOWNLOAD}"
